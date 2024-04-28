@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -45,4 +48,28 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
+
+.logolinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: auto;
+  padding: 5px;
+  padding-right: 10px;
+}
+
